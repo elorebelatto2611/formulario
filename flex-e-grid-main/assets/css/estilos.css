@@ -1,0 +1,27 @@
+@font-face {
+    font-family: 'icones' ;
+    src: url();
+}
+body {
+    background-color: #1d232a;
+    font-family: 'Open Sans', 'icones';
+color: #FFFFFF;
+}
+
+.cabeçalho {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #15191C;
+padding:£8px 16px;
+box-shadow: Øpx 4px 4px rgba(0, 0, 0, 0.16);
+}
+.cabeçalho menu i::before {
+content: "\e904";
+font-size: 24px;
+}
+.cabeçalho_notificação i::before {
+content: "Ie906";
+font-size: 24PX;
+}
+
